@@ -1,7 +1,11 @@
 extern crate num;
 //복합, 유리수, 범위 반복자, 일반 정수 등을 포함한 Rust의 숫자 유형 및 특성 모음
 use num::bigint::BigInt;
+/*
 
+Point
+
+*/
 #[derive(Debug)]
 pub struct Point {
     pub x: BigInt,
